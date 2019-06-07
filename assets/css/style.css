@@ -1,0 +1,51 @@
+body {
+    margin: 0%;
+    background-image: url(file:///Users/edgarayala/Basic-Portfolio/assets/images/papyrus-dark.png);
+}
+.container {
+    width: 80%;
+    margin: 0 auto
+}
+
+header {
+    background-color: #ffffff;
+    border: #cccccc 20px;
+
+}
+header::after{
+    content: '';
+        display: table;
+        clear: both;
+}
+.logo {
+    float: left;
+    background-color: #4aaaa5;
+    border-block-width: 80px;
+    border-block-color: 
+}
+nav {
+    float: right;
+}
+
+nav ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 40%
+    padding: 10px;
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40%
+}
+.container2 {
+    margin: 20%
+}
